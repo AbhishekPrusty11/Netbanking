@@ -1,0 +1,9 @@
+{
+    "validBene": {
+        "Beneficiary_name": "Test Bene Bank",
+        "Account_Number": "56765776567567",
+        "Confirm_Account_No": "56765776567567",
+        "IFSC_Code": "SBIN0004500",
+        "Nickname": "Test UI"
+    }
+}

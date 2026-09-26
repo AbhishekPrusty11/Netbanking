@@ -1,0 +1,17 @@
+{
+    "Success_Flow": {
+        "Amount": "100",
+        "remarks": "House Rent",
+        "OTP": "123456"
+    },
+    "Invalid_Amount":{
+        "Amount":"80000000",
+        "remarks":"House Rent",
+        "OTP":"123456"
+    },
+    "Invalid_OTP":{
+        "Amount":"10000",
+        "remarks":"House Rent",
+        "OTP":"575767"
+    }
+}
