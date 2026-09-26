@@ -12,7 +12,7 @@ test.beforeEach(async({userregistration})=>{
     await userregistration.personalDetails(regdData.Valid_Registration.regdDetails);
 
     //Account Setup
-    await userregistration.accountSetup();
+    await userregistration.accountSetup(regdData.Valid_Registration.regdDetails.OTP);
 })
 
 test('Add Beneficiary', async ({ page,addbeneficiary }) => {
