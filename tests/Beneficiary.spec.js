@@ -21,5 +21,4 @@ test('Add Beneficiary', async ({ page, addbeneficiary }) => {
     //Beneficiaries
     await addbeneficiary.createBene(data.validBene);
     await expect(page.getByTestId('beneSuccessMsg')).toHaveText(`Beneficiary "${data.validBene.Beneficiary_name}" added successfully.`)
-    await page.pause();
 })

@@ -3,9 +3,7 @@ class userRegistration {
     constructor(page) {
         this.page = page;
         this.strtPlanBtn = page.locator('#startPlanBtn');
-        // this.bankingPortalText = page.getByText('Banking Portal');
-        // this.bnkPortal = page.getByText('Banking Portal');
-        this.bnkPortal = page.getByRole('link', { name: 'Banking Portal', exact: true });
+        this.bnkPortal = page.getByTestId('app-card-banking').getByRole('link', {name: 'Banking Portal',exact: true});
         this.wlcmMsg = page.getByRole('heading', { name: 'Welcome to ISB NetBanking' });
         this.regdBtn = page.getByTestId('navRegister');
         this.name = page.getByTestId('regName');
