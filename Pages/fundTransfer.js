@@ -1,3 +1,5 @@
+const { type } = require("node:os");
+
 class fundTransfer {
     constructor(page) {
         this.page = page;
@@ -10,7 +12,7 @@ class fundTransfer {
         this.nxtBtn3 = page.getByTestId('nextBtn3');
         this.confirmBtn = page.getByTestId('confirmTransferBtn');
         this.verifyBtn = page.getByTestId('verifyOtpBtn');
-        this.successmsg=page.getByTestId('successMessage');
+        this.successmsg = page.getByTestId('successMessage');
 
     }
 
@@ -23,26 +25,33 @@ class fundTransfer {
         await this.contBtn.click();
     }
 
-    async getAvailableBalance() {
-
+    async getInvalidAmntErrorMsg() {
+        const AmntError_msg = (await this.page.getByTestId('error-transferAmount').textContent()).trim();
+        return AmntError_msg
+    }
+    async getInvalidOTPErrorMsg() {
+        const OtpError_msg = (await this.page.getByTestId('error-otp').textContent()).trim();
+        return OtpError_msg
     }
 
-    async enterAmountandSubmit(input) {
+    async enterAmountandSubmit(input, flowName) {
 
         const balance_text = await this.page.locator('.ml-3.text-gray-500').textContent();
         const available_amount = Number(balance_text.replace('Balance:', '').replace('₹', '').replace(/,/g, '').trim());
-        console.log(available_amount)
-
 
         const transfer_amount = Number(input.Amount);
 
+        console.log(`Available balance: ${available_amount}`);
+        console.log(`Transfer amount: ${transfer_amount}`);
+
         if (available_amount < transfer_amount) {
             await this.amount.fill(input.Amount);
-            // await this.page.pause();
             await this.nxtBtn3.click();
-            const error_msg = (await this.page.getByTestId('error-transferAmount').textContent()).trim();
-            console.log(`Error Message : "${error_msg}`)
-            return error_msg
+            const error_msg = await this.getInvalidAmntErrorMsg();
+
+            return {
+                status: 'error', type: 'amount', message: error_msg
+            }
         }
 
         //Enter Amount
@@ -58,10 +67,21 @@ class fundTransfer {
 
         //verify button
         await this.verifyBtn.click();
-       
+        if (flowName === 'Invalid_OTP') {
+            const errorMessage = await this.getInvalidOTPErrorMsg();
+
+            return {
+                status: 'error',
+                message: errorMessage
+            };
+        }
+
         const successMsg = (await this.successmsg.textContent()).trim()
 
-        return successMsg
+        return {
+            status: 'success',
+            message: successMsg
+        }
     }
 
 }

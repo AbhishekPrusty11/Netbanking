@@ -12,14 +12,21 @@ test.beforeEach(async ({ loginpage }) => {
 
 for (const [flowName, input] of Object.entries(fundData)) {
 
-    test(`Fund Transfer with ${flowName}`, async ({ page, addbeneficiary, fundtransfer, successpage }) => {
+    test(`Fund Transfer with ${flowName}`, async ({ addbeneficiary, fundtransfer, successpage }) => {
         const beneName = await addbeneficiary.createBene(data.validBene);
- 
-        await fundtransfer.selectBene(beneName);
-        await fundtransfer.enterAmountandSubmit(input);
 
-        const txnRefNumber = await successpage.txnSuccess();
-        console.log(`Transaction Ref Number : ${txnRefNumber}`)
+        await fundtransfer.selectBene(beneName);
+        const error_msg = await fundtransfer.enterAmountandSubmit(input, flowName);
+
+        if (flowName == "Success_Flow") {
+            const txnRefNumber = await successpage.txnSuccess();
+            console.log(`Transaction Ref Number : ${txnRefNumber}`)
+        }
+        else {
+            console.log(`Error Message : ${error_msg.message}`)
+        }
+
+
 
     })
 }
