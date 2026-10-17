@@ -1,0 +1,304 @@
+[
+  {
+    "id": "1551a940dbfbf0872387-bb84eeacc7c251b564df",
+    "key": " › chromium › registration.spec.js › User Registration › InValid mobile number during user Registration",
+    "file": "tests\\registration.spec.js",
+    "executedAt": "2026-10-17T15:28:24.675Z",
+    "tcId": "TC-GENERIC",
+    "title": "InValid mobile number during user Registration",
+    "module": "User Registration",
+    "portal": "Unspecified",
+    "userName": "Unspecified",
+    "status": "passed",
+    "knownDefect": false,
+    "durationMs": 6677,
+    "error": null,
+    "steps": [
+      {
+        "title": "Launch browser",
+        "durationMs": 757,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Create context",
+        "durationMs": 36,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Create page",
+        "durationMs": 384,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Navigate to \"/\"",
+        "durationMs": 1443,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click locator('#startPlanBtn')",
+        "durationMs": 1327,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Wait for selector getByTestId('app-card-banking').getByRole('link', { name: 'Banking Portal', exact: true })",
+        "durationMs": 935,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('app-card-banking').getByRole('link', { name: 'Banking Portal', exact: true })",
+        "durationMs": 183,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Wait for selector getByRole('heading', { name: 'Welcome to ISB NetBanking' })",
+        "durationMs": 414,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('navRegister')",
+        "durationMs": 145,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"Test User 1\" getByTestId('regName')",
+        "durationMs": 328,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"testuser1@yopmail.com\" getByTestId('regEmail')",
+        "durationMs": 72,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"5868756875\" getByTestId('regPhone')",
+        "durationMs": 81,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"Abhishek@12\" getByTestId('regPassword')",
+        "durationMs": 85,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"Abhishek@12\" getByTestId('regConfirmPassword')",
+        "durationMs": 76,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByRole('button', { name: 'Continue' })",
+        "durationMs": 135,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Close context",
+        "durationMs": 30,
+        "error": null,
+        "technicalProof": []
+      }
+    ],
+    "attachments": [
+      {
+        "name": "trace",
+        "contentType": "application/zip",
+        "path": "D:\\Playwright\\Netbanking\\test-results\\registration-User-Registra-7e147-er-during-user-Registration-chromium\\trace.zip",
+        "relativePath": null,
+        "base64": null
+      }
+    ],
+    "primaryScreenshot": null,
+    "location": "registration.spec.js:23"
+  },
+  {
+    "id": "1551a940dbfbf0872387-a92aaa759854006d515b",
+    "key": " › chromium › registration.spec.js › User Registration › Valid User Registration",
+    "file": "tests\\registration.spec.js",
+    "executedAt": "2026-10-17T15:28:25.866Z",
+    "tcId": "TC-GENERIC",
+    "title": "Valid User Registration",
+    "module": "User Registration",
+    "portal": "Unspecified",
+    "userName": "Unspecified",
+    "status": "passed",
+    "knownDefect": false,
+    "durationMs": 7966,
+    "error": null,
+    "steps": [
+      {
+        "title": "Launch browser",
+        "durationMs": 412,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Create context",
+        "durationMs": 30,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Create page",
+        "durationMs": 486,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Navigate to \"/\"",
+        "durationMs": 2892,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click locator('#startPlanBtn')",
+        "durationMs": 412,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Wait for selector getByTestId('app-card-banking').getByRole('link', { name: 'Banking Portal', exact: true })",
+        "durationMs": 316,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('app-card-banking').getByRole('link', { name: 'Banking Portal', exact: true })",
+        "durationMs": 198,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Wait for selector getByRole('heading', { name: 'Welcome to ISB NetBanking' })",
+        "durationMs": 875,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('navRegister')",
+        "durationMs": 114,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"Test User 1\" getByTestId('regName')",
+        "durationMs": 154,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"testuser1@yopmail.com\" getByTestId('regEmail')",
+        "durationMs": 71,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"7868756875\" getByTestId('regPhone')",
+        "durationMs": 63,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"Abhishek@12\" getByTestId('regPassword')",
+        "durationMs": 53,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"Abhishek@12\" getByTestId('regConfirmPassword')",
+        "durationMs": 53,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByRole('button', { name: 'Continue' })",
+        "durationMs": 266,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('nextBtn2')",
+        "durationMs": 153,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"1\" getByTestId('regOtp0')",
+        "durationMs": 78,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"2\" getByTestId('regOtp1')",
+        "durationMs": 97,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"3\" getByTestId('regOtp2')",
+        "durationMs": 50,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"4\" getByTestId('regOtp3')",
+        "durationMs": 52,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"5\" getByTestId('regOtp4')",
+        "durationMs": 42,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"6\" getByTestId('regOtp5')",
+        "durationMs": 37,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('submitBtn')",
+        "durationMs": 84,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Wait for selector getByTestId('bank-header')",
+        "durationMs": 355,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Close context",
+        "durationMs": 31,
+        "error": null,
+        "technicalProof": []
+      }
+    ],
+    "attachments": [
+      {
+        "name": "trace",
+        "contentType": "application/zip",
+        "path": "D:\\Playwright\\Netbanking\\test-results\\registration-User-Registration-Valid-User-Registration-chromium\\trace.zip",
+        "relativePath": null,
+        "base64": null
+      }
+    ],
+    "primaryScreenshot": null,
+    "location": "registration.spec.js:7"
+  }
+]
