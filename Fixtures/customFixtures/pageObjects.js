@@ -4,7 +4,7 @@ const { userRegistration } = require('../../Pages/userRegistration')
 const { addBeneficiary } = require('../../Pages/addBeneficiary')
 const { fundTransfer } = require('../../Pages/fundTransfer');
 const { successPage } = require('../../Pages/successPage')
-const {transactionHistory}=require('../../Pages/transactionHistory')
+const { transactionHistory } = require('../../Pages/transactionHistory')
 
 
 const test = base.test.extend({
@@ -23,7 +23,7 @@ const test = base.test.extend({
     successpage: async ({ page }, use) => {
         await use(new successPage(page))
     },
-    txnHistory:async({page},use)=>{
+    txnHistory: async ({ page }, use) => {
         await use(new transactionHistory(page))
     }
 

@@ -1,10 +1,10 @@
 require('dotenv').config()
 const { test, expect } = require('../Fixtures/customFixtures/pageObjects')
 const data = require('../Fixtures/test_data/createBene.json')
-const regdData=require('../Fixtures/test_data/UserDetails.json')
+const regdData = require('../Fixtures/test_data/UserDetails.json')
 
 
-test.beforeEach(async({userregistration})=>{
+test.beforeEach(async ({ userregistration }) => {
     await userregistration.goto(process.env.BASE_URL);
     await userregistration.navigateToRegistration();
 
@@ -15,18 +15,8 @@ test.beforeEach(async({userregistration})=>{
     await userregistration.accountSetup(regdData.Valid_Registration.regdDetails.OTP);
 })
 
-test('Add Beneficiary', async ({ page,addbeneficiary }) => {
+test('Add Beneficiary', async ({ page, addbeneficiary }) => {
 
-
-    // //Navigation
-    // await userregistration.goto(process.env.BASE_URL);
-    // await userregistration.navigateToRegistration();
-
-    // //Registration
-    // await userregistration.personalDetails(data.regdDetails);
-
-    // //Account Setup
-    // await userregistration.accountSetup();
 
     //Beneficiaries
     await addbeneficiary.createBene(data.validBene);

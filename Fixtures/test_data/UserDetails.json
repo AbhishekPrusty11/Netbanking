@@ -2,16 +2,15 @@
     "Valid_Registration": {
         "type": "Valid_Registration",
         "regdDetails": {
-            "Name": "Test User 1",
+            "Name": "Test User 1", 
             "Email": "testuser1@yopmail.com",
             "Phone_Number": "7868756875",
             "Password": "Abhishek@12",
             "Confirm_Password": "Abhishek@12",
-             "OTP":"123456"
-            
+            "OTP": "123456"
         }
     },
-    "InValid_Registration":{
+    "InValid_Registration": {
         "type": "Invalid_Registration",
         "regdDetails": {
             "Name": "Test User 1",
@@ -19,8 +18,7 @@
             "Phone_Number": "5868756875",
             "Password": "Abhishek@12",
             "Confirm_Password": "Abhishek@12",
-             "OTP":"575767"
-            
+            "OTP": "575767"
         }
     }
 }

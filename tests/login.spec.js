@@ -4,7 +4,7 @@ require('dotenv').config()
 
 
 
-test("Create Login",async({page,loginpage})=>{
+test("Create Login",async({loginpage})=>{
     
     await loginpage.goto()
     await loginpage.validLogin({Email:process.env.LOGIN_EMAIL,Password:process.env.LOGIN_PASSWORD})
