@@ -8,7 +8,7 @@
     "title": "InValid mobile number during user Registration",
     "module": "User Registration",
     "portal": "Unspecified",
-    "userName": "Unspecified",
+    "userName": "rahul@netbank.com",
     "status": "passed",
     "knownDefect": false,
     "durationMs": 6677,
@@ -132,7 +132,7 @@
     "title": "Valid User Registration",
     "module": "User Registration",
     "portal": "Unspecified",
-    "userName": "Unspecified",
+    "userName": "rahul@netbank.com",
     "status": "passed",
     "knownDefect": false,
     "durationMs": 7966,
@@ -300,5 +300,1095 @@
     ],
     "primaryScreenshot": null,
     "location": "registration.spec.js:7"
+  },
+  {
+    "id": "b1fc2701f0f4eef82747-3451896f355ee89aabf5",
+    "key": " › chromium › fundTransfer.spec.js › Fund Transfer with Invalid_Amount",
+    "file": "tests\\fundTransfer.spec.js",
+    "executedAt": "2026-10-18T05:06:52.115Z",
+    "tcId": "TC-GENERIC",
+    "title": "Fund Transfer with Invalid_Amount",
+    "module": "Fund Transfer with Invalid_Amount",
+    "portal": "Unspecified",
+    "userName": "rahul@netbank.com",
+    "status": "passed",
+    "knownDefect": false,
+    "durationMs": 17675,
+    "error": null,
+    "steps": [
+      {
+        "title": "Launch browser",
+        "durationMs": 2168,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Create context",
+        "durationMs": 136,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Create page",
+        "durationMs": 1805,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Navigate to \"/banking/login\"",
+        "durationMs": 4028,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"rahul@netbank.com\" getByTestId('userId')",
+        "durationMs": 670,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"Bank@123\" getByTestId('password')",
+        "durationMs": 534,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('loginBtn')",
+        "durationMs": 279,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('nav-beneficiaries')",
+        "durationMs": 2868,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('addBeneficiaryBtn')",
+        "durationMs": 1558,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"Test Bene Bank\" getByPlaceholder('Enter beneficiary name')",
+        "durationMs": 69,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"56765776567567\" getByTestId('beneAccNo')",
+        "durationMs": 102,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"56765776567567\" getByTestId('beneConfirmAccNo')",
+        "durationMs": 228,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"SBIN0004500\" locator('#beneIfsc')",
+        "durationMs": 212,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"Test UI\" locator('#beneNickname')",
+        "durationMs": 198,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByRole('button', { name: 'Add Beneficiary' })",
+        "durationMs": 423,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('nav-fund-transfer')",
+        "durationMs": 355,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('type-NEFT')",
+        "durationMs": 284,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('nextBtn1')",
+        "durationMs": 181,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByText('Test Bene Bank')",
+        "durationMs": 158,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByRole('button', { name: 'Continue' })",
+        "durationMs": 305,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"80000000\" getByTestId('transferAmount')",
+        "durationMs": 64,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('nextBtn3')",
+        "durationMs": 122,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Close context",
+        "durationMs": 104,
+        "error": null,
+        "technicalProof": []
+      }
+    ],
+    "attachments": [
+      {
+        "name": "trace",
+        "contentType": "application/zip",
+        "path": "D:\\Playwright\\Netbanking\\test-results\\fundTransfer-Fund-Transfer-with-Invalid-Amount-chromium\\trace.zip",
+        "relativePath": null,
+        "base64": null
+      }
+    ],
+    "primaryScreenshot": null,
+    "location": "fundTransfer.spec.js:15"
+  },
+  {
+    "id": "b1fc2701f0f4eef82747-2d72b6821e34a9af62a9",
+    "key": " › chromium › fundTransfer.spec.js › Fund Transfer with Invalid_OTP",
+    "file": "tests\\fundTransfer.spec.js",
+    "executedAt": "2026-10-18T05:06:52.894Z",
+    "tcId": "TC-GENERIC",
+    "title": "Fund Transfer with Invalid_OTP",
+    "module": "Fund Transfer with Invalid_OTP",
+    "portal": "Unspecified",
+    "userName": "rahul@netbank.com",
+    "status": "passed",
+    "knownDefect": false,
+    "durationMs": 18236,
+    "error": null,
+    "steps": [
+      {
+        "title": "Launch browser",
+        "durationMs": 1969,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Create context",
+        "durationMs": 111,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Create page",
+        "durationMs": 1781,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Navigate to \"/banking/login\"",
+        "durationMs": 3237,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"rahul@netbank.com\" getByTestId('userId')",
+        "durationMs": 1108,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"Bank@123\" getByTestId('password')",
+        "durationMs": 493,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('loginBtn')",
+        "durationMs": 366,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('nav-beneficiaries')",
+        "durationMs": 3361,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('addBeneficiaryBtn')",
+        "durationMs": 1480,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"Test Bene Bank\" getByPlaceholder('Enter beneficiary name')",
+        "durationMs": 50,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"56765776567567\" getByTestId('beneAccNo')",
+        "durationMs": 59,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"56765776567567\" getByTestId('beneConfirmAccNo')",
+        "durationMs": 95,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"SBIN0004500\" locator('#beneIfsc')",
+        "durationMs": 193,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"Test UI\" locator('#beneNickname')",
+        "durationMs": 156,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByRole('button', { name: 'Add Beneficiary' })",
+        "durationMs": 277,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('nav-fund-transfer')",
+        "durationMs": 264,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('type-NEFT')",
+        "durationMs": 290,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('nextBtn1')",
+        "durationMs": 169,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByText('Test Bene Bank')",
+        "durationMs": 189,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByRole('button', { name: 'Continue' })",
+        "durationMs": 245,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"10000\" getByTestId('transferAmount')",
+        "durationMs": 104,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"House Rent\" getByTestId('remarks')",
+        "durationMs": 62,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('nextBtn3')",
+        "durationMs": 123,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('confirmTransferBtn')",
+        "durationMs": 135,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"5\" getByTestId('otpBox-0')",
+        "durationMs": 55,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"7\" getByTestId('otpBox-1')",
+        "durationMs": 53,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"5\" getByTestId('otpBox-2')",
+        "durationMs": 49,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"7\" getByTestId('otpBox-3')",
+        "durationMs": 54,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"6\" getByTestId('otpBox-4')",
+        "durationMs": 54,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"7\" getByTestId('otpBox-5')",
+        "durationMs": 39,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('verifyOtpBtn')",
+        "durationMs": 96,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Close context",
+        "durationMs": 55,
+        "error": null,
+        "technicalProof": []
+      }
+    ],
+    "attachments": [
+      {
+        "name": "trace",
+        "contentType": "application/zip",
+        "path": "D:\\Playwright\\Netbanking\\test-results\\fundTransfer-Fund-Transfer-with-Invalid-OTP-chromium\\trace.zip",
+        "relativePath": null,
+        "base64": null
+      }
+    ],
+    "primaryScreenshot": null,
+    "location": "fundTransfer.spec.js:15"
+  },
+  {
+    "id": "b1fc2701f0f4eef82747-75fe7c4a54e840dffc16",
+    "key": " › chromium › fundTransfer.spec.js › Fund Transfer with Success_Flow",
+    "file": "tests\\fundTransfer.spec.js",
+    "executedAt": "2026-10-18T05:06:53.174Z",
+    "tcId": "TC-GENERIC",
+    "title": "Fund Transfer with Success_Flow",
+    "module": "Fund Transfer with Success_Flow",
+    "portal": "Unspecified",
+    "userName": "rahul@netbank.com",
+    "status": "passed",
+    "knownDefect": false,
+    "durationMs": 18703,
+    "error": null,
+    "steps": [
+      {
+        "title": "Launch browser",
+        "durationMs": 1532,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Create context",
+        "durationMs": 116,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Create page",
+        "durationMs": 1820,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Navigate to \"/banking/login\"",
+        "durationMs": 3283,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"rahul@netbank.com\" getByTestId('userId')",
+        "durationMs": 1222,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"Bank@123\" getByTestId('password')",
+        "durationMs": 472,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('loginBtn')",
+        "durationMs": 323,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('nav-beneficiaries')",
+        "durationMs": 4134,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('addBeneficiaryBtn')",
+        "durationMs": 1852,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"Test Bene Bank\" getByPlaceholder('Enter beneficiary name')",
+        "durationMs": 76,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"56765776567567\" getByTestId('beneAccNo')",
+        "durationMs": 264,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"56765776567567\" getByTestId('beneConfirmAccNo')",
+        "durationMs": 149,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"SBIN0004500\" locator('#beneIfsc')",
+        "durationMs": 177,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"Test UI\" locator('#beneNickname')",
+        "durationMs": 165,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByRole('button', { name: 'Add Beneficiary' })",
+        "durationMs": 214,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('nav-fund-transfer')",
+        "durationMs": 253,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('type-NEFT')",
+        "durationMs": 145,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('nextBtn1')",
+        "durationMs": 150,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByText('Test Bene Bank')",
+        "durationMs": 126,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByRole('button', { name: 'Continue' })",
+        "durationMs": 147,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"100\" getByTestId('transferAmount')",
+        "durationMs": 42,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"House Rent\" getByTestId('remarks')",
+        "durationMs": 40,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('nextBtn3')",
+        "durationMs": 88,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('confirmTransferBtn')",
+        "durationMs": 68,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"1\" getByTestId('otpBox-0')",
+        "durationMs": 34,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"2\" getByTestId('otpBox-1')",
+        "durationMs": 60,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"3\" getByTestId('otpBox-2')",
+        "durationMs": 36,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"4\" getByTestId('otpBox-3')",
+        "durationMs": 38,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"5\" getByTestId('otpBox-4')",
+        "durationMs": 41,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"6\" getByTestId('otpBox-5')",
+        "durationMs": 32,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('verifyOtpBtn')",
+        "durationMs": 92,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('goToDashboard')",
+        "durationMs": 185,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Wait for selector getByTestId('bank-header')",
+        "durationMs": 43,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Close context",
+        "durationMs": 76,
+        "error": null,
+        "technicalProof": []
+      }
+    ],
+    "attachments": [
+      {
+        "name": "trace",
+        "contentType": "application/zip",
+        "path": "D:\\Playwright\\Netbanking\\test-results\\fundTransfer-Fund-Transfer-with-Success-Flow-chromium\\trace.zip",
+        "relativePath": null,
+        "base64": null
+      }
+    ],
+    "primaryScreenshot": null,
+    "location": "fundTransfer.spec.js:15"
+  },
+  {
+    "id": "7e92e413931626f9bd93-6893782d1214ad10d6ef",
+    "key": " › chromium › BillPayments.spec.js › Bill Payments › Electricty",
+    "file": "tests\\BillPayments.spec.js",
+    "executedAt": "2026-10-20T07:08:08.817Z",
+    "tcId": "TC-GENERIC",
+    "title": "Electricty",
+    "module": "Bill Payments",
+    "portal": "Unspecified",
+    "userName": "rahul@netbank.com",
+    "status": "passed",
+    "knownDefect": false,
+    "durationMs": 7224,
+    "error": null,
+    "steps": [
+      {
+        "title": "Launch browser",
+        "durationMs": 1372,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Create context",
+        "durationMs": 33,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Create page",
+        "durationMs": 556,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Navigate to \"/banking/login\"",
+        "durationMs": 1968,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"rahul@netbank.com\" getByTestId('userId')",
+        "durationMs": 526,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"Bank@123\" getByTestId('password')",
+        "durationMs": 102,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('loginBtn')",
+        "durationMs": 172,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByRole('link', { name: 'Bill Payments' })",
+        "durationMs": 1521,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('category-Electricity')",
+        "durationMs": 924,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Select option getByTestId('billerProvider')",
+        "durationMs": 68,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"78667576576567\" getByTestId('consumerNumber')",
+        "durationMs": 63,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"120\" getByPlaceholder('Enter amount')",
+        "durationMs": 69,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Wait for selector getByTestId('payBillBtn')",
+        "durationMs": 33,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('payBillBtn')",
+        "durationMs": 164,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Close context",
+        "durationMs": 49,
+        "error": null,
+        "technicalProof": []
+      }
+    ],
+    "attachments": [
+      {
+        "name": "trace",
+        "contentType": "application/zip",
+        "path": "D:\\Playwright\\Netbanking\\test-results\\BillPayments-Bill-Payments-Electricty-chromium\\trace.zip",
+        "relativePath": null,
+        "base64": null
+      }
+    ],
+    "primaryScreenshot": null,
+    "location": "BillPayments.spec.js:16"
+  },
+  {
+    "id": "7e92e413931626f9bd93-de91dd8339240d67389e",
+    "key": " › chromium › BillPayments.spec.js › Bill Payments › Electricty Bill Payment Bill Payment",
+    "file": "tests\\BillPayments.spec.js",
+    "executedAt": "2026-10-21T07:05:45.013Z",
+    "tcId": "TC-GENERIC",
+    "title": "Electricty Bill Payment Bill Payment",
+    "module": "Bill Payments",
+    "portal": "Unspecified",
+    "userName": "rahul@netbank.com",
+    "status": "passed",
+    "knownDefect": false,
+    "durationMs": 29656,
+    "error": null,
+    "steps": [
+      {
+        "title": "Launch browser",
+        "durationMs": 1634,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Create context",
+        "durationMs": 49,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Create page",
+        "durationMs": 2300,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Navigate to \"/banking/login\"",
+        "durationMs": 3512,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"rahul@netbank.com\" getByTestId('userId')",
+        "durationMs": 6214,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"Bank@123\" getByTestId('password')",
+        "durationMs": 3486,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('loginBtn')",
+        "durationMs": 1599,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByRole('link', { name: 'Bill Payments' })",
+        "durationMs": 5457,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('category-Electricity')",
+        "durationMs": 205,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Select option getByTestId('billerProvider')",
+        "durationMs": 105,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"87643443\" getByTestId('consumerNumber')",
+        "durationMs": 126,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"150\" getByPlaceholder('Enter amount')",
+        "durationMs": 180,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Wait for selector getByTestId('payBillBtn')",
+        "durationMs": 83,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('payBillBtn')",
+        "durationMs": 436,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Close context",
+        "durationMs": 148,
+        "error": null,
+        "technicalProof": []
+      }
+    ],
+    "attachments": [
+      {
+        "name": "trace",
+        "contentType": "application/zip",
+        "path": "D:\\Playwright\\Netbanking\\test-results\\BillPayments-Bill-Payments-0fd87-y-Bill-Payment-Bill-Payment-chromium\\trace.zip",
+        "relativePath": null,
+        "base64": null
+      }
+    ],
+    "primaryScreenshot": null,
+    "location": "BillPayments.spec.js:18"
+  },
+  {
+    "id": "7e92e413931626f9bd93-688ec2a0200fc84fb59f",
+    "key": " › chromium › BillPayments.spec.js › Bill Payments › Internet/Broadband Bill Payment Bill Payment",
+    "file": "tests\\BillPayments.spec.js",
+    "executedAt": "2026-10-21T07:05:45.567Z",
+    "tcId": "TC-GENERIC",
+    "title": "Internet/Broadband Bill Payment Bill Payment",
+    "module": "Bill Payments",
+    "portal": "Unspecified",
+    "userName": "rahul@netbank.com",
+    "status": "passed",
+    "knownDefect": false,
+    "durationMs": 30011,
+    "error": null,
+    "steps": [
+      {
+        "title": "Launch browser",
+        "durationMs": 2168,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Create context",
+        "durationMs": 97,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Create page",
+        "durationMs": 2190,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Navigate to \"/banking/login\"",
+        "durationMs": 3950,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"rahul@netbank.com\" getByTestId('userId')",
+        "durationMs": 1719,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"Bank@123\" getByTestId('password')",
+        "durationMs": 1014,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('loginBtn')",
+        "durationMs": 4384,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByRole('link', { name: 'Bill Payments' })",
+        "durationMs": 1750,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('category-Internet')",
+        "durationMs": 3008,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Select option getByTestId('billerProvider')",
+        "durationMs": 204,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"87546463\" getByTestId('consumerNumber')",
+        "durationMs": 667,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"120\" getByPlaceholder('Enter amount')",
+        "durationMs": 415,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Wait for selector getByTestId('payBillBtn')",
+        "durationMs": 903,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('payBillBtn')",
+        "durationMs": 873,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Close context",
+        "durationMs": 92,
+        "error": null,
+        "technicalProof": []
+      }
+    ],
+    "attachments": [
+      {
+        "name": "trace",
+        "contentType": "application/zip",
+        "path": "D:\\Playwright\\Netbanking\\test-results\\BillPayments-Bill-Payments-06bf3-d-Bill-Payment-Bill-Payment-chromium\\trace.zip",
+        "relativePath": null,
+        "base64": null
+      }
+    ],
+    "primaryScreenshot": null,
+    "location": "BillPayments.spec.js:18"
+  },
+  {
+    "id": "7e92e413931626f9bd93-a7f069909f84f5f66ec1",
+    "key": " › chromium › BillPayments.spec.js › Bill Payments › Mobile/Telecom Bill Payment Bill Payment",
+    "file": "tests\\BillPayments.spec.js",
+    "executedAt": "2026-10-21T07:05:45.200Z",
+    "tcId": "TC-GENERIC",
+    "title": "Mobile/Telecom Bill Payment Bill Payment",
+    "module": "Bill Payments",
+    "portal": "Unspecified",
+    "userName": "rahul@netbank.com",
+    "status": "passed",
+    "knownDefect": false,
+    "durationMs": 28485,
+    "error": null,
+    "steps": [
+      {
+        "title": "Launch browser",
+        "durationMs": 2478,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Create context",
+        "durationMs": 49,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Create page",
+        "durationMs": 2548,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Navigate to \"/banking/login\"",
+        "durationMs": 6393,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"rahul@netbank.com\" getByTestId('userId')",
+        "durationMs": 2748,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"Bank@123\" getByTestId('password')",
+        "durationMs": 402,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('loginBtn')",
+        "durationMs": 1882,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByRole('link', { name: 'Bill Payments' })",
+        "durationMs": 4249,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('category-Mobile')",
+        "durationMs": 342,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Select option getByTestId('billerProvider')",
+        "durationMs": 108,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"870000463\" getByTestId('consumerNumber')",
+        "durationMs": 252,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"799\" getByPlaceholder('Enter amount')",
+        "durationMs": 204,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Wait for selector getByTestId('payBillBtn')",
+        "durationMs": 401,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('payBillBtn')",
+        "durationMs": 195,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Close context",
+        "durationMs": 102,
+        "error": null,
+        "technicalProof": []
+      }
+    ],
+    "attachments": [
+      {
+        "name": "trace",
+        "contentType": "application/zip",
+        "path": "D:\\Playwright\\Netbanking\\test-results\\BillPayments-Bill-Payments-f2f86-m-Bill-Payment-Bill-Payment-chromium\\trace.zip",
+        "relativePath": null,
+        "base64": null
+      }
+    ],
+    "primaryScreenshot": null,
+    "location": "BillPayments.spec.js:18"
   }
 ]

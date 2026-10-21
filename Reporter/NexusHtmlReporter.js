@@ -370,7 +370,7 @@ export default class NexusHtmlReporter {
 
     /** The configured login account name for the role used by this test. */
     extractUserName(role) {
-        return process.env[`${role.toUpperCase()}_USERNAME`] || 'Unspecified';
+      return process.env[`${role.toUpperCase()}_USERNAME`] || process.env.LOGIN_EMAIL || 'Unspecified';
     }
 
     extractPortal(filePath, titlePath = [], role = null) {
@@ -1171,7 +1171,7 @@ export default class NexusHtmlReporter {
               <div class="test-main-info">
                 <span class="badge-status \${statusClass}">\${t.status}</span>
                 \${t.knownDefect ? '<span class="badge-status status-failed" title="The test is marked test.fail: the defect is still present">known defect</span>' : ''}
-                <span class="tag-portal">\${escapeHtml(t.portal)}</span>
+                \${t.portal !== 'Unspecified' ? '<span class="tag-portal">' + escapeHtml(t.portal) + '</span>' : ''}
                 <span class="tag-user">👤 \${escapeHtml(t.userName)}</span>
                 <span class="tag-module">\${escapeHtml(t.module)}</span>
                 <span class="test-title">\${escapeHtml(t.title)}</span>

@@ -1,0 +1,20 @@
+{
+    "Electricty Bill Payment": {
+        "Select_Category": "Electricity",
+        "Biller": "ADDC - Abu Dhabi",
+        "Consumer_Number": "87643443",
+        "Amount": "150"
+    },
+    "Internet/Broadband Bill Payment": {
+        "Select_Category": "Internet",
+        "Biller": "Etisalat Broadband",
+        "Consumer_Number": "87546463",
+        "Amount": "120"
+    },
+    "Mobile/Telecom Bill Payment": {
+        "Select_Category": "Mobile",
+        "Biller": "Etisalat Prepaid",
+        "Consumer_Number": "870000463",
+        "Amount": "799"
+    }
+}
