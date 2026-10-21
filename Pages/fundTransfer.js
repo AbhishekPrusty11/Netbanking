@@ -83,6 +83,5 @@ class fundTransfer {
             message: successMsg
         }
     }
-
 }
 module.exports = { fundTransfer }
