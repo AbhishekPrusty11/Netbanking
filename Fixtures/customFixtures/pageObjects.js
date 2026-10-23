@@ -5,6 +5,7 @@ const { addBeneficiary } = require('../../Pages/addBeneficiary')
 const { fundTransfer } = require('../../Pages/fundTransfer');
 const { successPage } = require('../../Pages/successPage')
 const { transactionHistory } = require('../../Pages/transactionHistory')
+const { BillPayments } = require('../../Pages/BillPayments')
 
 
 const test = base.test.extend({
@@ -25,6 +26,9 @@ const test = base.test.extend({
     },
     txnHistory: async ({ page }, use) => {
         await use(new transactionHistory(page))
+    },
+    billpayment:async({page},use)=>{
+        await use(new BillPayments(page))
     }
 
 

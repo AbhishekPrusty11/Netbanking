@@ -5,8 +5,6 @@ const payment = require('../Fixtures/test_data/billPayment.json')
 
 test.describe('Bill Payments', () => {
 
-
-
     test.beforeEach(async ({ loginpage }) => {
         await loginpage.goto()
         await loginpage.validLogin({ Email: process.env.LOGIN_EMAIL, Password: process.env.LOGIN_PASSWORD })
@@ -15,16 +13,12 @@ test.describe('Bill Payments', () => {
 
     for (const [flowName, input] of Object.entries(payment))
 
-        test(`${flowName} Bill Payment`, async ({ page }) => {
+        test(`${flowName} Bill Payment`, async ({ billpayment }) => {
 
-            await page.getByRole('link', { name: 'Bill Payments' }).click();
-            await page.getByTestId(`category-${input.Select_Category}`).click();
-            await page.getByTestId('billerProvider').selectOption(input.Biller);
-            await page.getByTestId('consumerNumber').fill(input.Consumer_Number)
-            await page.getByPlaceholder('Enter amount').fill(input.Amount)
-            await page.getByTestId('payBillBtn').waitFor({ state: 'visible' })
-            await page.getByTestId('payBillBtn').click();
-            const successMsg = await page.getByTestId('billSuccessMsg').textContent();
-            console.log(`Electrcity Bill Payment :${successMsg}`);
+            await billpayment.openBillPayment();
+            await billpayment.selectCategory(input);
+            const successMsg = await billpayment.getSuccessMsg();
+            console.log(`${input.Select_Category} Bill Payment Successful :${successMsg}`);
+
         })
 })
