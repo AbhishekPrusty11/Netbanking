@@ -2256,5 +2256,933 @@
     ],
     "primaryScreenshot": null,
     "location": "billPayments.spec.js:16"
+  },
+  {
+    "id": "edde1e05f8da822027f7-8a8c51a74a09411f703a",
+    "key": " › chromium › fixedDeposit.spec.js › Bill Payments › Fixed Deposit",
+    "file": "tests\\fixedDeposit.spec.js",
+    "executedAt": "2026-10-24T06:30:34.526Z",
+    "tcId": "TC-GENERIC",
+    "title": "Fixed Deposit",
+    "module": "Bill Payments",
+    "portal": "Unspecified",
+    "userName": "rahul@netbank.com",
+    "status": "passed",
+    "knownDefect": false,
+    "durationMs": 5332,
+    "error": null,
+    "steps": [
+      {
+        "title": "Launch browser",
+        "durationMs": 775,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Create context",
+        "durationMs": 19,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Create page",
+        "durationMs": 307,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Navigate to \"/banking/login\"",
+        "durationMs": 1602,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"rahul@netbank.com\" getByTestId('userId')",
+        "durationMs": 258,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"Bank@123\" getByTestId('password')",
+        "durationMs": 51,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('loginBtn')",
+        "durationMs": 79,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('nav-fixed-deposits')",
+        "durationMs": 1199,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"200000\" getByTestId('fdAmount')",
+        "durationMs": 843,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('tenure-6mo')",
+        "durationMs": 453,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Close context",
+        "durationMs": 30,
+        "error": null,
+        "technicalProof": []
+      }
+    ],
+    "attachments": [
+      {
+        "name": "trace",
+        "contentType": "application/zip",
+        "path": "D:\\Playwright\\Netbanking\\test-results\\fixedDeposit-Bill-Payments-Fixed-Deposit-chromium\\trace.zip",
+        "relativePath": null,
+        "base64": null
+      }
+    ],
+    "primaryScreenshot": null,
+    "location": "fixedDeposit.spec.js:13"
+  },
+  {
+    "id": "edde1e05f8da822027f7-1be8d3a98a68a46737e4",
+    "key": " › chromium › fixedDeposit.spec.js › Bill Payments › Fixed Deposit for 3_Month_Tenure",
+    "file": "tests\\fixedDeposit.spec.js",
+    "executedAt": "2026-10-24T06:36:10.884Z",
+    "tcId": "TC-GENERIC",
+    "title": "Fixed Deposit for 3_Month_Tenure",
+    "module": "Bill Payments",
+    "portal": "Unspecified",
+    "userName": "rahul@netbank.com",
+    "status": "passed",
+    "knownDefect": false,
+    "durationMs": 16915,
+    "error": null,
+    "steps": [
+      {
+        "title": "Launch browser",
+        "durationMs": 1463,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Create context",
+        "durationMs": 52,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Create page",
+        "durationMs": 911,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Navigate to \"/banking/login\"",
+        "durationMs": 4447,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"rahul@netbank.com\" getByTestId('userId')",
+        "durationMs": 2411,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"Bank@123\" getByTestId('password')",
+        "durationMs": 1075,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('loginBtn')",
+        "durationMs": 570,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('nav-fixed-deposits')",
+        "durationMs": 1279,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"200000\" getByTestId('fdAmount')",
+        "durationMs": 1001,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('tenure-3yr')",
+        "durationMs": 1765,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Close context",
+        "durationMs": 71,
+        "error": null,
+        "technicalProof": []
+      }
+    ],
+    "attachments": [
+      {
+        "name": "trace",
+        "contentType": "application/zip",
+        "path": "D:\\Playwright\\Netbanking\\test-results\\fixedDeposit-Bill-Payments-Fixed-Deposit-for-3-Month-Tenure-chromium\\trace.zip",
+        "relativePath": null,
+        "base64": null
+      }
+    ],
+    "primaryScreenshot": null,
+    "location": "fixedDeposit.spec.js:15"
+  },
+  {
+    "id": "edde1e05f8da822027f7-f246b9dc9c0c4af3ea15",
+    "key": " › chromium › fixedDeposit.spec.js › Bill Payments › Fixed Deposit for 6_Month_Tenure",
+    "file": "tests\\fixedDeposit.spec.js",
+    "executedAt": "2026-10-24T06:54:18.423Z",
+    "tcId": "TC-GENERIC",
+    "title": "Fixed Deposit for 6_Month_Tenure",
+    "module": "Bill Payments",
+    "portal": "Unspecified",
+    "userName": "rahul@netbank.com",
+    "status": "passed",
+    "knownDefect": false,
+    "durationMs": 16458,
+    "error": null,
+    "steps": [
+      {
+        "title": "Launch browser",
+        "durationMs": 494,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Create context",
+        "durationMs": 32,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Create page",
+        "durationMs": 636,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Navigate to \"/banking/login\"",
+        "durationMs": 2430,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"rahul@netbank.com\" getByTestId('userId')",
+        "durationMs": 539,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"Bank@123\" getByTestId('password')",
+        "durationMs": 229,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('loginBtn')",
+        "durationMs": 195,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('nav-fixed-deposits')",
+        "durationMs": 5673,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"200000\" getByTestId('fdAmount')",
+        "durationMs": 731,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('tenure-6mo')",
+        "durationMs": 1050,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Close context",
+        "durationMs": 65,
+        "error": null,
+        "technicalProof": []
+      }
+    ],
+    "attachments": [
+      {
+        "name": "trace",
+        "contentType": "application/zip",
+        "path": "D:\\Playwright\\Netbanking\\test-results\\fixedDeposit-Bill-Payments-Fixed-Deposit-for-6-Month-Tenure-chromium\\trace.zip",
+        "relativePath": null,
+        "base64": null
+      }
+    ],
+    "primaryScreenshot": null,
+    "location": "fixedDeposit.spec.js:15"
+  },
+  {
+    "id": "edde1e05f8da822027f7-72dd4dfc72b3f75b8afa",
+    "key": " › chromium › fixedDeposit.spec.js › Bill Payments › Fixed Deposit for 2_Month_Tenure",
+    "file": "tests\\fixedDeposit.spec.js",
+    "executedAt": "2026-10-24T06:36:09.348Z",
+    "tcId": "TC-GENERIC",
+    "title": "Fixed Deposit for 2_Month_Tenure",
+    "module": "Bill Payments",
+    "portal": "Unspecified",
+    "userName": "rahul@netbank.com",
+    "status": "passed",
+    "knownDefect": false,
+    "durationMs": 16183,
+    "error": null,
+    "steps": [
+      {
+        "title": "Launch browser",
+        "durationMs": 825,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Create context",
+        "durationMs": 102,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Create page",
+        "durationMs": 1118,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Navigate to \"/banking/login\"",
+        "durationMs": 5015,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"rahul@netbank.com\" getByTestId('userId')",
+        "durationMs": 734,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"Bank@123\" getByTestId('password')",
+        "durationMs": 869,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('loginBtn')",
+        "durationMs": 785,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('nav-fixed-deposits')",
+        "durationMs": 1202,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"200000\" getByTestId('fdAmount')",
+        "durationMs": 1294,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('tenure-2yr')",
+        "durationMs": 695,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Close context",
+        "durationMs": 53,
+        "error": null,
+        "technicalProof": []
+      }
+    ],
+    "attachments": [
+      {
+        "name": "trace",
+        "contentType": "application/zip",
+        "path": "D:\\Playwright\\Netbanking\\test-results\\fixedDeposit-Bill-Payments-Fixed-Deposit-for-2-Month-Tenure-chromium\\trace.zip",
+        "relativePath": null,
+        "base64": null
+      }
+    ],
+    "primaryScreenshot": null,
+    "location": "fixedDeposit.spec.js:15"
+  },
+  {
+    "id": "edde1e05f8da822027f7-ff257365cab07b6f6693",
+    "key": " › chromium › fixedDeposit.spec.js › Bill Payments › Fixed Deposit for 1_Month_Tenure",
+    "file": "tests\\fixedDeposit.spec.js",
+    "executedAt": "2026-10-24T06:36:08.587Z",
+    "tcId": "TC-GENERIC",
+    "title": "Fixed Deposit for 1_Month_Tenure",
+    "module": "Bill Payments",
+    "portal": "Unspecified",
+    "userName": "rahul@netbank.com",
+    "status": "passed",
+    "knownDefect": false,
+    "durationMs": 15810,
+    "error": null,
+    "steps": [
+      {
+        "title": "Launch browser",
+        "durationMs": 1121,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Create context",
+        "durationMs": 18,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Create page",
+        "durationMs": 1102,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Navigate to \"/banking/login\"",
+        "durationMs": 1718,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"rahul@netbank.com\" getByTestId('userId')",
+        "durationMs": 1193,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"Bank@123\" getByTestId('password')",
+        "durationMs": 663,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('loginBtn')",
+        "durationMs": 568,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('nav-fixed-deposits')",
+        "durationMs": 2135,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"200000\" getByTestId('fdAmount')",
+        "durationMs": 980,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('tenure-1yr')",
+        "durationMs": 711,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Close context",
+        "durationMs": 54,
+        "error": null,
+        "technicalProof": []
+      }
+    ],
+    "attachments": [
+      {
+        "name": "trace",
+        "contentType": "application/zip",
+        "path": "D:\\Playwright\\Netbanking\\test-results\\fixedDeposit-Bill-Payments-Fixed-Deposit-for-1-Month-Tenure-chromium\\trace.zip",
+        "relativePath": null,
+        "base64": null
+      }
+    ],
+    "primaryScreenshot": null,
+    "location": "fixedDeposit.spec.js:15"
+  },
+  {
+    "id": "edde1e05f8da822027f7-2edc902a61125c8ae968",
+    "key": " › chromium › fixedDeposit.spec.js › Bill Payments › Fixed Deposit for 5_Month_Tenure",
+    "file": "tests\\fixedDeposit.spec.js",
+    "executedAt": "2026-10-24T06:36:14.708Z",
+    "tcId": "TC-GENERIC",
+    "title": "Fixed Deposit for 5_Month_Tenure",
+    "module": "Bill Payments",
+    "portal": "Unspecified",
+    "userName": "rahul@netbank.com",
+    "status": "passed",
+    "knownDefect": false,
+    "durationMs": 5600,
+    "error": null,
+    "steps": [
+      {
+        "title": "Create context",
+        "durationMs": 17,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Create page",
+        "durationMs": 409,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Navigate to \"/banking/login\"",
+        "durationMs": 1580,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"rahul@netbank.com\" getByTestId('userId')",
+        "durationMs": 461,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"Bank@123\" getByTestId('password')",
+        "durationMs": 72,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('loginBtn')",
+        "durationMs": 117,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('nav-fixed-deposits')",
+        "durationMs": 1199,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"200000\" getByTestId('fdAmount')",
+        "durationMs": 839,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('tenure-5yr')",
+        "durationMs": 431,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Close context",
+        "durationMs": 26,
+        "error": null,
+        "technicalProof": []
+      }
+    ],
+    "attachments": [
+      {
+        "name": "trace",
+        "contentType": "application/zip",
+        "path": "D:\\Playwright\\Netbanking\\test-results\\fixedDeposit-Bill-Payments-Fixed-Deposit-for-5-Month-Tenure-chromium\\trace.zip",
+        "relativePath": null,
+        "base64": null
+      }
+    ],
+    "primaryScreenshot": null,
+    "location": "fixedDeposit.spec.js:15"
+  },
+  {
+    "id": "edde1e05f8da822027f7-ce3474293a5962276495",
+    "key": " › chromium › fixedDeposit.spec.js › Bill Payments › Fixed Deposit for 2_Year_Tenure",
+    "file": "tests\\fixedDeposit.spec.js",
+    "executedAt": "2026-10-24T06:54:16.068Z",
+    "tcId": "TC-GENERIC",
+    "title": "Fixed Deposit for 2_Year_Tenure",
+    "module": "Bill Payments",
+    "portal": "Unspecified",
+    "userName": "rahul@netbank.com",
+    "status": "passed",
+    "knownDefect": false,
+    "durationMs": 14100,
+    "error": null,
+    "steps": [
+      {
+        "title": "Launch browser",
+        "durationMs": 724,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Create context",
+        "durationMs": 37,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Create page",
+        "durationMs": 592,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Navigate to \"/banking/login\"",
+        "durationMs": 2246,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"rahul@netbank.com\" getByTestId('userId')",
+        "durationMs": 239,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"Bank@123\" getByTestId('password')",
+        "durationMs": 85,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('loginBtn')",
+        "durationMs": 232,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('nav-fixed-deposits')",
+        "durationMs": 2055,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"200000\" getByTestId('fdAmount')",
+        "durationMs": 2987,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('tenure-2yr')",
+        "durationMs": 486,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Close context",
+        "durationMs": 51,
+        "error": null,
+        "technicalProof": []
+      }
+    ],
+    "attachments": [
+      {
+        "name": "trace",
+        "contentType": "application/zip",
+        "path": "D:\\Playwright\\Netbanking\\test-results\\fixedDeposit-Bill-Payments-Fixed-Deposit-for-2-Year-Tenure-chromium\\trace.zip",
+        "relativePath": null,
+        "base64": null
+      }
+    ],
+    "primaryScreenshot": null,
+    "location": "fixedDeposit.spec.js:15"
+  },
+  {
+    "id": "edde1e05f8da822027f7-b8f9513e16b461ee5752",
+    "key": " › chromium › fixedDeposit.spec.js › Bill Payments › Fixed Deposit for 1_Year_Tenure",
+    "file": "tests\\fixedDeposit.spec.js",
+    "executedAt": "2026-10-24T06:54:19.222Z",
+    "tcId": "TC-GENERIC",
+    "title": "Fixed Deposit for 1_Year_Tenure",
+    "module": "Bill Payments",
+    "portal": "Unspecified",
+    "userName": "rahul@netbank.com",
+    "status": "passed",
+    "knownDefect": false,
+    "durationMs": 15320,
+    "error": null,
+    "steps": [
+      {
+        "title": "Launch browser",
+        "durationMs": 896,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Create context",
+        "durationMs": 26,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Create page",
+        "durationMs": 736,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Navigate to \"/banking/login\"",
+        "durationMs": 9466,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"rahul@netbank.com\" getByTestId('userId')",
+        "durationMs": 210,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"Bank@123\" getByTestId('password')",
+        "durationMs": 149,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('loginBtn')",
+        "durationMs": 233,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('nav-fixed-deposits')",
+        "durationMs": 2325,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"200000\" getByTestId('fdAmount')",
+        "durationMs": 59,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('tenure-1yr')",
+        "durationMs": 788,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Close context",
+        "durationMs": 50,
+        "error": null,
+        "technicalProof": []
+      }
+    ],
+    "attachments": [
+      {
+        "name": "trace",
+        "contentType": "application/zip",
+        "path": "D:\\Playwright\\Netbanking\\test-results\\fixedDeposit-Bill-Payments-Fixed-Deposit-for-1-Year-Tenure-chromium\\trace.zip",
+        "relativePath": null,
+        "base64": null
+      }
+    ],
+    "primaryScreenshot": null,
+    "location": "fixedDeposit.spec.js:15"
+  },
+  {
+    "id": "edde1e05f8da822027f7-51f9b4f57506022ebfb4",
+    "key": " › chromium › fixedDeposit.spec.js › Bill Payments › Fixed Deposit for 3_Year_Tenure",
+    "file": "tests\\fixedDeposit.spec.js",
+    "executedAt": "2026-10-24T06:54:18.278Z",
+    "tcId": "TC-GENERIC",
+    "title": "Fixed Deposit for 3_Year_Tenure",
+    "module": "Bill Payments",
+    "portal": "Unspecified",
+    "userName": "rahul@netbank.com",
+    "status": "passed",
+    "knownDefect": false,
+    "durationMs": 14483,
+    "error": null,
+    "steps": [
+      {
+        "title": "Launch browser",
+        "durationMs": 960,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Create context",
+        "durationMs": 22,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Create page",
+        "durationMs": 378,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Navigate to \"/banking/login\"",
+        "durationMs": 5869,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"rahul@netbank.com\" getByTestId('userId')",
+        "durationMs": 354,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"Bank@123\" getByTestId('password')",
+        "durationMs": 263,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('loginBtn')",
+        "durationMs": 315,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('nav-fixed-deposits')",
+        "durationMs": 2657,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"200000\" getByTestId('fdAmount')",
+        "durationMs": 631,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('tenure-3yr')",
+        "durationMs": 1695,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Close context",
+        "durationMs": 136,
+        "error": null,
+        "technicalProof": []
+      }
+    ],
+    "attachments": [
+      {
+        "name": "trace",
+        "contentType": "application/zip",
+        "path": "D:\\Playwright\\Netbanking\\test-results\\fixedDeposit-Bill-Payments-Fixed-Deposit-for-3-Year-Tenure-chromium\\trace.zip",
+        "relativePath": null,
+        "base64": null
+      }
+    ],
+    "primaryScreenshot": null,
+    "location": "fixedDeposit.spec.js:15"
+  },
+  {
+    "id": "edde1e05f8da822027f7-09ce6f64a1914f2cd86f",
+    "key": " › chromium › fixedDeposit.spec.js › Bill Payments › Fixed Deposit for 5_Year_Tenure",
+    "file": "tests\\fixedDeposit.spec.js",
+    "executedAt": "2026-10-24T06:54:23.988Z",
+    "tcId": "TC-GENERIC",
+    "title": "Fixed Deposit for 5_Year_Tenure",
+    "module": "Bill Payments",
+    "portal": "Unspecified",
+    "userName": "rahul@netbank.com",
+    "status": "passed",
+    "knownDefect": false,
+    "durationMs": 7412,
+    "error": null,
+    "steps": [
+      {
+        "title": "Create context",
+        "durationMs": 15,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Create page",
+        "durationMs": 1375,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Navigate to \"/banking/login\"",
+        "durationMs": 2130,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"rahul@netbank.com\" getByTestId('userId')",
+        "durationMs": 291,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"Bank@123\" getByTestId('password')",
+        "durationMs": 53,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('loginBtn')",
+        "durationMs": 91,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('nav-fixed-deposits')",
+        "durationMs": 1685,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"200000\" getByTestId('fdAmount')",
+        "durationMs": 830,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click getByTestId('tenure-5yr')",
+        "durationMs": 449,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Close context",
+        "durationMs": 28,
+        "error": null,
+        "technicalProof": []
+      }
+    ],
+    "attachments": [
+      {
+        "name": "trace",
+        "contentType": "application/zip",
+        "path": "D:\\Playwright\\Netbanking\\test-results\\fixedDeposit-Bill-Payments-Fixed-Deposit-for-5-Year-Tenure-chromium\\trace.zip",
+        "relativePath": null,
+        "base64": null
+      }
+    ],
+    "primaryScreenshot": null,
+    "location": "fixedDeposit.spec.js:15"
   }
 ]

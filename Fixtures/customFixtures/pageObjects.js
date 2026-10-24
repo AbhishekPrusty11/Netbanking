@@ -6,6 +6,7 @@ const { fundTransfer } = require('../../Pages/fundTransfer');
 const { successPage } = require('../../Pages/successPage')
 const { transactionHistory } = require('../../Pages/transactionHistory')
 const { BillPayments } = require('../../Pages/BillPayments')
+const { FixedDeposit } = require('../../Pages/FixedDeposit')
 
 
 const test = base.test.extend({
@@ -27,8 +28,11 @@ const test = base.test.extend({
     txnHistory: async ({ page }, use) => {
         await use(new transactionHistory(page))
     },
-    billpayment:async({page},use)=>{
+    billpayment: async ({ page }, use) => {
         await use(new BillPayments(page))
+    },
+    fixedeposit: async ({ page }, use) => {
+        await use(new FixedDeposit(page))
     }
 
 

@@ -1,6 +1,5 @@
 require('dotenv').config()
 const { test, expect } = require('../Fixtures/customFixtures/pageObjects')
-const fundData = require('../Fixtures/test_data/fundTransfer.json')
 const payment = require('../Fixtures/test_data/billPayment.json')
 
 test.describe('Bill Payments', () => {

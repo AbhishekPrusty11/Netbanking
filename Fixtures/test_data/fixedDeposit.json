@@ -1,0 +1,22 @@
+{
+    "6_Month_Tenure": {
+        "Year": "tenure-6mo",
+        "Amount": "200000"
+    },
+    "1_Year_Tenure": {
+        "Year": "tenure-1yr",
+        "Amount": "200000"
+    },
+    "2_Year_Tenure": {
+        "Year": "tenure-2yr",
+        "Amount": "200000"
+    },
+    "3_Year_Tenure": {
+        "Year": "tenure-3yr",
+        "Amount": "200000"
+    },
+    "5_Year_Tenure": {
+        "Year": "tenure-5yr",
+        "Amount": "200000"
+    }
+}
