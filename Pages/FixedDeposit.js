@@ -19,12 +19,10 @@ class FixedDeposit {
     }
     async getIntrstRate() {
         const Interest_Rate = await this.intrstrate.textContent();
-        // console.log(`Interest Rate for ${flowName} is ${Interest_Rate}`)
         return Interest_Rate;
     }
     async getMaturityAmnt() {
         const mat_Amount = await this.maturityAmnt.textContent();
-        // console.log(`Maturity Amount for ${flowName} is ${mat_Amount}`)
         return mat_Amount;
     }
 }
