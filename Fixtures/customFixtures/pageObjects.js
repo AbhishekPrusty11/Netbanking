@@ -5,7 +5,7 @@ const { addBeneficiary } = require('../../Pages/addBeneficiary')
 const { fundTransfer } = require('../../Pages/fundTransfer');
 const { successPage } = require('../../Pages/successPage')
 const { transactionHistory } = require('../../Pages/transactionHistory')
-const { BillPayments } = require('../../Pages/BillPayments')
+const { BillPayments } = require('../../Pages/billPayments')
 const { FixedDeposit } = require('../../Pages/FixedDeposit')
 
 
