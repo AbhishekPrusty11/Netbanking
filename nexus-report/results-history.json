@@ -908,508 +908,6 @@
     "location": "fundTransfer.spec.js:15"
   },
   {
-    "id": "7e92e413931626f9bd93-6893782d1214ad10d6ef",
-    "key": " › chromium › BillPayments.spec.js › Bill Payments › Electricty",
-    "file": "tests\\BillPayments.spec.js",
-    "executedAt": "2026-10-20T07:08:08.817Z",
-    "tcId": "TC-GENERIC",
-    "title": "Electricty",
-    "module": "Bill Payments",
-    "portal": "Unspecified",
-    "userName": "rahul@netbank.com",
-    "status": "passed",
-    "knownDefect": false,
-    "durationMs": 7224,
-    "error": null,
-    "steps": [
-      {
-        "title": "Launch browser",
-        "durationMs": 1372,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Create context",
-        "durationMs": 33,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Create page",
-        "durationMs": 556,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Navigate to \"/banking/login\"",
-        "durationMs": 1968,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Fill \"rahul@netbank.com\" getByTestId('userId')",
-        "durationMs": 526,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Fill \"Bank@123\" getByTestId('password')",
-        "durationMs": 102,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Click getByTestId('loginBtn')",
-        "durationMs": 172,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Click getByRole('link', { name: 'Bill Payments' })",
-        "durationMs": 1521,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Click getByTestId('category-Electricity')",
-        "durationMs": 924,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Select option getByTestId('billerProvider')",
-        "durationMs": 68,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Fill \"78667576576567\" getByTestId('consumerNumber')",
-        "durationMs": 63,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Fill \"120\" getByPlaceholder('Enter amount')",
-        "durationMs": 69,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Wait for selector getByTestId('payBillBtn')",
-        "durationMs": 33,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Click getByTestId('payBillBtn')",
-        "durationMs": 164,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Close context",
-        "durationMs": 49,
-        "error": null,
-        "technicalProof": []
-      }
-    ],
-    "attachments": [
-      {
-        "name": "trace",
-        "contentType": "application/zip",
-        "path": "D:\\Playwright\\Netbanking\\test-results\\BillPayments-Bill-Payments-Electricty-chromium\\trace.zip",
-        "relativePath": null,
-        "base64": null
-      }
-    ],
-    "primaryScreenshot": null,
-    "location": "BillPayments.spec.js:16"
-  },
-  {
-    "id": "7e92e413931626f9bd93-de91dd8339240d67389e",
-    "key": " › chromium › BillPayments.spec.js › Bill Payments › Electricty Bill Payment Bill Payment",
-    "file": "tests\\BillPayments.spec.js",
-    "executedAt": "2026-10-23T11:27:49.542Z",
-    "tcId": "TC-GENERIC",
-    "title": "Electricty Bill Payment Bill Payment",
-    "module": "Bill Payments",
-    "portal": "Unspecified",
-    "userName": "rahul@netbank.com",
-    "status": "timedOut",
-    "knownDefect": false,
-    "durationMs": 36294,
-    "error": {
-      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
-      "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
-    },
-    "steps": [
-      {
-        "title": "Launch browser",
-        "durationMs": 3008,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Create context",
-        "durationMs": 93,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Create page",
-        "durationMs": 1524,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Navigate to \"/banking/login\"",
-        "durationMs": 8110,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Fill \"rahul@netbank.com\" getByTestId('userId')",
-        "durationMs": 14931,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Fill \"Bank@123\" getByTestId('password')",
-        "durationMs": 754,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Click getByTestId('loginBtn')",
-        "durationMs": 1117,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Click getByRole('link', { name: 'Bill Payments' })",
-        "durationMs": 4864,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Click getByTestId('category-Electricity')",
-        "durationMs": 1181,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Select option getByTestId('billerProvider')",
-        "durationMs": 314,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Fill \"87643443\" getByTestId('consumerNumber')",
-        "durationMs": 169,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Fill \"150\" getByPlaceholder('Enter amount')",
-        "durationMs": 1096,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "❌ FAILED: Wait for selector getByTestId('payBillBtn') — Error: locator.waitFor: Test timeout of 30000ms exceeded.",
-        "durationMs": 1490,
-        "error": "Error: locator.waitFor: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for getByTestId('payBillBtn') to be visible",
-        "technicalProof": []
-      },
-      {
-        "title": "Close context",
-        "durationMs": 824,
-        "error": null,
-        "technicalProof": []
-      }
-    ],
-    "attachments": [
-      {
-        "name": "error-context",
-        "contentType": "text/markdown",
-        "path": "D:\\Playwright\\Netbanking\\test-results\\BillPayments-Bill-Payments-0fd87-y-Bill-Payment-Bill-Payment-chromium\\error-context.md",
-        "relativePath": null,
-        "base64": null
-      },
-      {
-        "name": "trace",
-        "contentType": "application/zip",
-        "path": "D:\\Playwright\\Netbanking\\test-results\\BillPayments-Bill-Payments-0fd87-y-Bill-Payment-Bill-Payment-chromium\\trace.zip",
-        "relativePath": null,
-        "base64": null
-      }
-    ],
-    "primaryScreenshot": null,
-    "location": "BillPayments.spec.js:16"
-  },
-  {
-    "id": "7e92e413931626f9bd93-688ec2a0200fc84fb59f",
-    "key": " › chromium › BillPayments.spec.js › Bill Payments › Internet/Broadband Bill Payment Bill Payment",
-    "file": "tests\\BillPayments.spec.js",
-    "executedAt": "2026-10-23T11:27:58.009Z",
-    "tcId": "TC-GENERIC",
-    "title": "Internet/Broadband Bill Payment Bill Payment",
-    "module": "Bill Payments",
-    "portal": "Unspecified",
-    "userName": "rahul@netbank.com",
-    "status": "timedOut",
-    "knownDefect": false,
-    "durationMs": 36464,
-    "error": {
-      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
-      "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
-    },
-    "steps": [
-      {
-        "title": "Launch browser",
-        "durationMs": 2994,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Create context",
-        "durationMs": 89,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Create page",
-        "durationMs": 1518,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Navigate to \"/banking/login\"",
-        "durationMs": 6842,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Fill \"rahul@netbank.com\" getByTestId('userId')",
-        "durationMs": 3416,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Fill \"Bank@123\" getByTestId('password')",
-        "durationMs": 11716,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Click getByTestId('loginBtn')",
-        "durationMs": 1572,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Click getByRole('link', { name: 'Bill Payments' })",
-        "durationMs": 3478,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Click getByTestId('category-Internet')",
-        "durationMs": 4262,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Select option getByTestId('billerProvider')",
-        "durationMs": 275,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Fill \"87546463\" getByTestId('consumerNumber')",
-        "durationMs": 151,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Fill \"120\" getByPlaceholder('Enter amount')",
-        "durationMs": 1165,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Wait for selector getByTestId('payBillBtn')",
-        "durationMs": 128,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Click getByTestId('payBillBtn')",
-        "durationMs": 1426,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Close context",
-        "durationMs": 175,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "❌ FAILED: Test timeout of 30000ms exceeded.",
-        "durationMs": 0,
-        "error": "Test timeout of 30000ms exceeded.",
-        "technicalProof": []
-      }
-    ],
-    "attachments": [
-      {
-        "name": "error-context",
-        "contentType": "text/markdown",
-        "path": "D:\\Playwright\\Netbanking\\test-results\\BillPayments-Bill-Payments-06bf3-d-Bill-Payment-Bill-Payment-chromium\\error-context.md",
-        "relativePath": null,
-        "base64": null
-      },
-      {
-        "name": "trace",
-        "contentType": "application/zip",
-        "path": "D:\\Playwright\\Netbanking\\test-results\\BillPayments-Bill-Payments-06bf3-d-Bill-Payment-Bill-Payment-chromium\\trace.zip",
-        "relativePath": null,
-        "base64": null
-      }
-    ],
-    "primaryScreenshot": null,
-    "location": "BillPayments.spec.js:16"
-  },
-  {
-    "id": "7e92e413931626f9bd93-a7f069909f84f5f66ec1",
-    "key": " › chromium › BillPayments.spec.js › Bill Payments › Mobile/Telecom Bill Payment Bill Payment",
-    "file": "tests\\BillPayments.spec.js",
-    "executedAt": "2026-10-23T11:27:49.552Z",
-    "tcId": "TC-GENERIC",
-    "title": "Mobile/Telecom Bill Payment Bill Payment",
-    "module": "Bill Payments",
-    "portal": "Unspecified",
-    "userName": "rahul@netbank.com",
-    "status": "timedOut",
-    "knownDefect": false,
-    "durationMs": 36312,
-    "error": {
-      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
-      "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
-    },
-    "steps": [
-      {
-        "title": "Launch browser",
-        "durationMs": 3017,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Create context",
-        "durationMs": 93,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Create page",
-        "durationMs": 1437,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Navigate to \"/banking/login\"",
-        "durationMs": 6117,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Fill \"rahul@netbank.com\" getByTestId('userId')",
-        "durationMs": 16880,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Fill \"Bank@123\" getByTestId('password')",
-        "durationMs": 748,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Click getByTestId('loginBtn')",
-        "durationMs": 730,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Click getByRole('link', { name: 'Bill Payments' })",
-        "durationMs": 3208,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Click getByTestId('category-Mobile')",
-        "durationMs": 3604,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Select option getByTestId('billerProvider')",
-        "durationMs": 187,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Fill \"870000463\" getByTestId('consumerNumber')",
-        "durationMs": 472,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Fill \"799\" getByPlaceholder('Enter amount')",
-        "durationMs": 934,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Wait for selector getByTestId('payBillBtn')",
-        "durationMs": 141,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "❌ FAILED: Click getByTestId('payBillBtn') — Error: locator.click: Test timeout of 30000ms exceeded.",
-        "durationMs": 1364,
-        "error": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for getByTestId('payBillBtn')\n    - locator resolved to <button id=\"payBillBtn\" data-testid=\"payBillBtn\" class=\"px-6 py-2.5 rounded-lg text-white font-medium text-sm transition-all duration-200 shadow-sm w-full bg-[#002D62] hover:bg-[#001D42] cursor-pointer\">Pay Now</button>\n  - attempting click action\n    - waiting for element to be visible, enabled and stable\n    - element is not stable\n  - retrying click action\n    - waiting for element to be visible, enabled and stable",
-        "technicalProof": []
-      },
-      {
-        "title": "Close context",
-        "durationMs": 872,
-        "error": null,
-        "technicalProof": []
-      }
-    ],
-    "attachments": [
-      {
-        "name": "error-context",
-        "contentType": "text/markdown",
-        "path": "D:\\Playwright\\Netbanking\\test-results\\BillPayments-Bill-Payments-f2f86-m-Bill-Payment-Bill-Payment-chromium\\error-context.md",
-        "relativePath": null,
-        "base64": null
-      },
-      {
-        "name": "trace",
-        "contentType": "application/zip",
-        "path": "D:\\Playwright\\Netbanking\\test-results\\BillPayments-Bill-Payments-f2f86-m-Bill-Payment-Bill-Payment-chromium\\trace.zip",
-        "relativePath": null,
-        "base64": null
-      }
-    ],
-    "primaryScreenshot": null,
-    "location": "BillPayments.spec.js:16"
-  },
-  {
     "id": "3ded48c038546ddbe935-5cf0a93aba1e847556e3",
     "key": " › chromium › Beneficiary.spec.js › Add Beneficiary",
     "file": "tests\\Beneficiary.spec.js",
@@ -1902,360 +1400,6 @@
     ],
     "primaryScreenshot": null,
     "location": "UserRegister.spec.js:6"
-  },
-  {
-    "id": "3b4f8cfdd7f3975d457b-703dedb98c4d70fe5f05",
-    "key": " › chromium › billPayments.spec.js › Bill Payments › Electricty Bill Payment Bill Payment",
-    "file": "tests\\billPayments.spec.js",
-    "executedAt": "2026-10-24T17:28:20.409Z",
-    "tcId": "TC-GENERIC",
-    "title": "Electricty Bill Payment Bill Payment",
-    "module": "Bill Payments",
-    "portal": "Unspecified",
-    "userName": "rahul@netbank.com",
-    "status": "passed",
-    "knownDefect": false,
-    "durationMs": 23131,
-    "error": null,
-    "steps": [
-      {
-        "title": "Launch browser",
-        "durationMs": 9282,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Create context",
-        "durationMs": 86,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Create page",
-        "durationMs": 1454,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Navigate to \"/banking/login\"",
-        "durationMs": 11172,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Fill \"rahul@netbank.com\" getByTestId('userId')",
-        "durationMs": 966,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Fill \"Bank@123\" getByTestId('password')",
-        "durationMs": 248,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Click getByTestId('loginBtn')",
-        "durationMs": 776,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Click getByRole('link', { name: 'Bill Payments' })",
-        "durationMs": 3424,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Click getByTestId('category-Electricity')",
-        "durationMs": 2303,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Select option getByTestId('billerProvider')",
-        "durationMs": 92,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Fill \"87643443\" getByTestId('consumerNumber')",
-        "durationMs": 96,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Fill \"150\" getByPlaceholder('Enter amount')",
-        "durationMs": 215,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Wait for selector getByTestId('payBillBtn')",
-        "durationMs": 62,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Click getByTestId('payBillBtn')",
-        "durationMs": 468,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Close context",
-        "durationMs": 63,
-        "error": null,
-        "technicalProof": []
-      }
-    ],
-    "attachments": [
-      {
-        "name": "trace",
-        "contentType": "application/zip",
-        "path": "D:\\Playwright\\Netbanking\\test-results\\billPayments-Bill-Payments-1ec23-y-Bill-Payment-Bill-Payment-chromium\\trace.zip",
-        "relativePath": null,
-        "base64": null
-      }
-    ],
-    "primaryScreenshot": null,
-    "location": "billPayments.spec.js:15"
-  },
-  {
-    "id": "3b4f8cfdd7f3975d457b-6d1ff0847b9df312f7f6",
-    "key": " › chromium › billPayments.spec.js › Bill Payments › Internet/Broadband Bill Payment Bill Payment",
-    "file": "tests\\billPayments.spec.js",
-    "executedAt": "2026-10-24T17:28:20.488Z",
-    "tcId": "TC-GENERIC",
-    "title": "Internet/Broadband Bill Payment Bill Payment",
-    "module": "Bill Payments",
-    "portal": "Unspecified",
-    "userName": "rahul@netbank.com",
-    "status": "passed",
-    "knownDefect": false,
-    "durationMs": 23487,
-    "error": null,
-    "steps": [
-      {
-        "title": "Launch browser",
-        "durationMs": 9778,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Create context",
-        "durationMs": 85,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Create page",
-        "durationMs": 1661,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Navigate to \"/banking/login\"",
-        "durationMs": 11160,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Fill \"rahul@netbank.com\" getByTestId('userId')",
-        "durationMs": 969,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Fill \"Bank@123\" getByTestId('password')",
-        "durationMs": 299,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Click getByTestId('loginBtn')",
-        "durationMs": 779,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Click getByRole('link', { name: 'Bill Payments' })",
-        "durationMs": 2979,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Click getByTestId('category-Internet')",
-        "durationMs": 3401,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Select option getByTestId('billerProvider')",
-        "durationMs": 93,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Fill \"87546463\" getByTestId('consumerNumber')",
-        "durationMs": 155,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Fill \"120\" getByPlaceholder('Enter amount')",
-        "durationMs": 180,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Wait for selector getByTestId('payBillBtn')",
-        "durationMs": 115,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Click getByTestId('payBillBtn')",
-        "durationMs": 181,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Close context",
-        "durationMs": 66,
-        "error": null,
-        "technicalProof": []
-      }
-    ],
-    "attachments": [
-      {
-        "name": "trace",
-        "contentType": "application/zip",
-        "path": "D:\\Playwright\\Netbanking\\test-results\\billPayments-Bill-Payments-3962c-d-Bill-Payment-Bill-Payment-chromium\\trace.zip",
-        "relativePath": null,
-        "base64": null
-      }
-    ],
-    "primaryScreenshot": null,
-    "location": "billPayments.spec.js:15"
-  },
-  {
-    "id": "3b4f8cfdd7f3975d457b-5120534119c702faf771",
-    "key": " › chromium › billPayments.spec.js › Bill Payments › Mobile/Telecom Bill Payment Bill Payment",
-    "file": "tests\\billPayments.spec.js",
-    "executedAt": "2026-10-24T17:28:20.352Z",
-    "tcId": "TC-GENERIC",
-    "title": "Mobile/Telecom Bill Payment Bill Payment",
-    "module": "Bill Payments",
-    "portal": "Unspecified",
-    "userName": "rahul@netbank.com",
-    "status": "passed",
-    "knownDefect": false,
-    "durationMs": 23328,
-    "error": null,
-    "steps": [
-      {
-        "title": "Launch browser",
-        "durationMs": 9509,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Create context",
-        "durationMs": 85,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Create page",
-        "durationMs": 1692,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Navigate to \"/banking/login\"",
-        "durationMs": 11130,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Fill \"rahul@netbank.com\" getByTestId('userId')",
-        "durationMs": 969,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Fill \"Bank@123\" getByTestId('password')",
-        "durationMs": 200,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Click getByTestId('loginBtn')",
-        "durationMs": 844,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Click getByRole('link', { name: 'Bill Payments' })",
-        "durationMs": 2791,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Click getByTestId('category-Mobile')",
-        "durationMs": 3631,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Select option getByTestId('billerProvider')",
-        "durationMs": 68,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Fill \"870000463\" getByTestId('consumerNumber')",
-        "durationMs": 101,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Fill \"799\" getByPlaceholder('Enter amount')",
-        "durationMs": 186,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Wait for selector getByTestId('payBillBtn')",
-        "durationMs": 95,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Click getByTestId('payBillBtn')",
-        "durationMs": 212,
-        "error": null,
-        "technicalProof": []
-      },
-      {
-        "title": "Close context",
-        "durationMs": 102,
-        "error": null,
-        "technicalProof": []
-      }
-    ],
-    "attachments": [
-      {
-        "name": "trace",
-        "contentType": "application/zip",
-        "path": "D:\\Playwright\\Netbanking\\test-results\\billPayments-Bill-Payments-2a8af-m-Bill-Payment-Bill-Payment-chromium\\trace.zip",
-        "relativePath": null,
-        "base64": null
-      }
-    ],
-    "primaryScreenshot": null,
-    "location": "billPayments.spec.js:15"
   },
   {
     "id": "edde1e05f8da822027f7-8a8c51a74a09411f703a",
@@ -3184,5 +2328,359 @@
     ],
     "primaryScreenshot": null,
     "location": "fixedDeposit.spec.js:15"
+  },
+  {
+    "id": "cfe4c15e717b4ed21af7-4a40f9ff9c3488251b2f",
+    "key": " › chromium › payBill.spec.js › Bill Payments › Mobile/Telecom Bill Payment Bill Payment",
+    "file": "tests\\payBill.spec.js",
+    "executedAt": "2026-10-25T16:31:12.352Z",
+    "tcId": "TC-GENERIC",
+    "title": "Mobile/Telecom Bill Payment Bill Payment",
+    "module": "Bill Payments",
+    "portal": "Unspecified",
+    "userName": "rahul@netbank.com",
+    "status": "passed",
+    "knownDefect": false,
+    "durationMs": 17873,
+    "error": null,
+    "steps": [
+      {
+        "title": "Launch browser",
+        "durationMs": 1422,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Create context",
+        "durationMs": 18,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Create page",
+        "durationMs": 2323,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Navigate — /banking/login",
+        "durationMs": 3550,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"rahul@netbank.com\" — getByTestId('userId')",
+        "durationMs": 1152,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"Bank@123\" — getByTestId('password')",
+        "durationMs": 318,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click — getByTestId('loginBtn')",
+        "durationMs": 1166,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click — getByRole('link', { name: 'Bill Payments' })",
+        "durationMs": 2785,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click — getByTestId('category-Mobile')",
+        "durationMs": 1486,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Select option — getByTestId('billerProvider')",
+        "durationMs": 308,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"870000463\" — getByTestId('consumerNumber')",
+        "durationMs": 220,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"799\" — getByPlaceholder('Enter amount')",
+        "durationMs": 296,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Wait for selector — getByTestId('payBillBtn')",
+        "durationMs": 310,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click — getByTestId('payBillBtn')",
+        "durationMs": 448,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Close context",
+        "durationMs": 52,
+        "error": null,
+        "technicalProof": []
+      }
+    ],
+    "attachments": [
+      {
+        "name": "trace",
+        "contentType": "application/zip",
+        "path": "D:\\Playwright\\Netbanking\\test-results\\payBill-Bill-Payments-Mobi-df936-m-Bill-Payment-Bill-Payment-chromium\\trace.zip",
+        "relativePath": null,
+        "base64": null
+      }
+    ],
+    "primaryScreenshot": null,
+    "location": "payBill.spec.js:15"
+  },
+  {
+    "id": "cfe4c15e717b4ed21af7-97ad4ef26ef12ed04261",
+    "key": " › chromium › payBill.spec.js › Bill Payments › Electricty Bill Payment Bill Payment",
+    "file": "tests\\payBill.spec.js",
+    "executedAt": "2026-10-25T16:31:12.009Z",
+    "tcId": "TC-GENERIC",
+    "title": "Electricty Bill Payment Bill Payment",
+    "module": "Bill Payments",
+    "portal": "Unspecified",
+    "userName": "rahul@netbank.com",
+    "status": "passed",
+    "knownDefect": false,
+    "durationMs": 16408,
+    "error": null,
+    "steps": [
+      {
+        "title": "Launch browser",
+        "durationMs": 1700,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Create context",
+        "durationMs": 45,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Create page",
+        "durationMs": 1380,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Navigate — /banking/login",
+        "durationMs": 3680,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"rahul@netbank.com\" — getByTestId('userId')",
+        "durationMs": 1154,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"Bank@123\" — getByTestId('password')",
+        "durationMs": 407,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click — getByTestId('loginBtn')",
+        "durationMs": 836,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click — getByRole('link', { name: 'Bill Payments' })",
+        "durationMs": 3785,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click — getByTestId('category-Electricity')",
+        "durationMs": 1599,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Select option — getByTestId('billerProvider')",
+        "durationMs": 149,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"87643443\" — getByTestId('consumerNumber')",
+        "durationMs": 126,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"150\" — getByPlaceholder('Enter amount')",
+        "durationMs": 127,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Wait for selector — getByTestId('payBillBtn')",
+        "durationMs": 51,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click — getByTestId('payBillBtn')",
+        "durationMs": 198,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Close context",
+        "durationMs": 48,
+        "error": null,
+        "technicalProof": []
+      }
+    ],
+    "attachments": [
+      {
+        "name": "trace",
+        "contentType": "application/zip",
+        "path": "D:\\Playwright\\Netbanking\\test-results\\payBill-Bill-Payments-Electricty-Bill-Payment-Bill-Payment-chromium\\trace.zip",
+        "relativePath": null,
+        "base64": null
+      }
+    ],
+    "primaryScreenshot": null,
+    "location": "payBill.spec.js:15"
+  },
+  {
+    "id": "cfe4c15e717b4ed21af7-1e145b37328779fe5c39",
+    "key": " › chromium › payBill.spec.js › Bill Payments › Internet/Broadband Bill Payment Bill Payment",
+    "file": "tests\\payBill.spec.js",
+    "executedAt": "2026-10-25T16:31:11.947Z",
+    "tcId": "TC-GENERIC",
+    "title": "Internet/Broadband Bill Payment Bill Payment",
+    "module": "Bill Payments",
+    "portal": "Unspecified",
+    "userName": "rahul@netbank.com",
+    "status": "passed",
+    "knownDefect": false,
+    "durationMs": 17227,
+    "error": null,
+    "steps": [
+      {
+        "title": "Launch browser",
+        "durationMs": 1435,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Create context",
+        "durationMs": 16,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Create page",
+        "durationMs": 2128,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Navigate — /banking/login",
+        "durationMs": 3289,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"rahul@netbank.com\" — getByTestId('userId')",
+        "durationMs": 1856,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"Bank@123\" — getByTestId('password')",
+        "durationMs": 2527,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click — getByTestId('loginBtn')",
+        "durationMs": 613,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click — getByRole('link', { name: 'Bill Payments' })",
+        "durationMs": 1891,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click — getByTestId('category-Internet')",
+        "durationMs": 953,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Select option — getByTestId('billerProvider')",
+        "durationMs": 235,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"87546463\" — getByTestId('consumerNumber')",
+        "durationMs": 393,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Fill \"120\" — getByPlaceholder('Enter amount')",
+        "durationMs": 202,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Wait for selector — getByTestId('payBillBtn')",
+        "durationMs": 140,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Click — getByTestId('payBillBtn')",
+        "durationMs": 385,
+        "error": null,
+        "technicalProof": []
+      },
+      {
+        "title": "Close context",
+        "durationMs": 107,
+        "error": null,
+        "technicalProof": []
+      }
+    ],
+    "attachments": [
+      {
+        "name": "trace",
+        "contentType": "application/zip",
+        "path": "D:\\Playwright\\Netbanking\\test-results\\payBill-Bill-Payments-Inte-195c0-d-Bill-Payment-Bill-Payment-chromium\\trace.zip",
+        "relativePath": null,
+        "base64": null
+      }
+    ],
+    "primaryScreenshot": null,
+    "location": "payBill.spec.js:15"
   }
 ]
